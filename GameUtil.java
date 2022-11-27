@@ -7,7 +7,7 @@ public class GameUtil {
         if(attack-defend > 0)
             return attack-defend;
         else{
-            System.out.println("未能击破地方装甲");
+            System.out.println("未能击敌方方装甲");
             return 0;
         }
 
