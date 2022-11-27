@@ -173,11 +173,7 @@ public class GameRun {
                 Character.CharacterInformation.exp += 10;
                 weapon01.exp += 10;
                 System.out.println("角色获取了10经验");
-                try {
                     weapon01.levelUp();
-                } catch (Exception e) {
-                    throw new RuntimeException(e);
-                }
                 round = 1;
             }else if(Character.CharacterInformation.hp<=0){
                 System.out.println("你已经死亡,游戏结束");
